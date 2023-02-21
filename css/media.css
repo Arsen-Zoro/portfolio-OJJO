@@ -1,0 +1,195 @@
+@media (max-width: 1590px) {
+    body {
+        background-position: center;
+    }
+
+    .fine {
+        display: none;
+    }
+}
+
+@media (max-width: 1148px) {
+
+    .header__work {
+        display: none;
+    }
+
+    .jeweler__nav-list-active {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+
+    .jeweler__nav-list {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+
+    .jeweler__image-2 {
+        margin-right: 0px;
+    }
+
+    .jeweler__image-3 {
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+
+    .jeweler__image-4 {
+        margin-right: 0px;
+    }
+
+    .blog__choice {
+        flex-direction: column;
+    }
+
+    .blog__image-1 {
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+
+    .blog__image-2 {
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+
+    .footer__block {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__end-title {
+        margin-right: 105px;
+    }
+}
+
+@media (max-width: 899px) {
+    .jeweler__nav-list-active {
+        padding: 10px 10px;
+        font-size: 15px;
+    }
+
+    .jeweler__nav-list {
+        padding: 10px 12px;
+        font-size: 15px;
+    }
+
+    .advise__email {
+        width: 390px;
+    }
+
+    .advise__button {
+        padding: 14px;
+    }
+}
+
+@media (max-width: 783px) {
+    .jeweler__nav {
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+    }
+
+    .jeweler__nav-list-active {
+        margin-right: 0px;
+    }
+
+    .jeweler__nav-list {
+       margin-right: 0px; 
+    }
+
+    .jeweler__image-chapter {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .jeweler__image-1 {
+        margin-right: 0px;
+    }
+
+    .jeweler__image-2 {
+        margin-bottom: 15px;
+    }  
+
+    .jeweler__image-3 {
+        margin-right: 0px;
+    }
+    
+    .jeweler__image-4 {
+        margin-bottom: 15px;
+    }
+
+    .jeweler__image-5 {
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+
+    .advise__email {
+        width: 250px;
+        height: 130px;
+    }
+
+    .advise__input {
+        margin-bottom: 10px;
+    }
+
+    .advise__button {
+        margin-left: 40px;
+    }
+
+    .salons__text {
+        line-height: 100%;
+        width: 530px;
+    }
+}
+
+@media (max-width: 715px) {
+    .advise__block-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advise__play-block {
+        margin-bottom: 30px;
+    }
+
+    .advise__play-block {
+        align-items: center;
+    }
+
+    .footer__end-title {
+        margin-right: 55px;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+    }
+}
+
+@media (max-width: 581px) {
+    .section__header {
+        font-size: 32px;
+    }
+
+    .section__product {
+        padding: 15px 20px;
+    }
+
+    .salons__text {
+        width: 300px;
+    }
+
+    .footer__link-1 {
+        display: block;
+    }
+
+    .footer__link-2 {
+        display: block;
+    }
+
+    .footer__end {
+        flex-direction: column;
+    }
+}

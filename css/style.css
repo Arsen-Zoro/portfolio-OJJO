@@ -1,0 +1,654 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Poppins:wght@400;500&display=swap);
+
+body {
+    font-family: 'Noto Serif', serif;
+    background: url("../img/crown.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1255px;
+    padding: 0 35px;
+    margin: 0 auto;
+}
+
+/*header start*/
+
+.header {
+    padding-bottom: 425px;
+}
+
+.header__link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.header__work-contact {
+    color: #ffffff;
+    padding-right: 30px;
+}
+
+.header__work-contact:last-child {
+    padding-right: 0;
+}
+
+.header__nav-1 {
+    padding-right: 16px;
+}
+
+.header__nav-2 {
+    padding-right: 30px;
+    color: #ffffff;
+}
+
+.header__nav-3 {
+    padding-right: 30px;
+    color: #ffffff;
+}
+
+.header__nav-4 {
+    padding-right: 20px;
+}
+
+/*header end*/
+
+/*section start*/
+
+.section__header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 50px;
+}
+
+.section__button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__product {
+    border: 1px solid #FFFFFF;
+    background: #333333;
+    padding: 15px 35px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+    color: #ffffff
+    
+    
+}
+
+.section__border {
+    width: 1920px;
+    border: 1px solid #FFFFFF;
+}
+
+/*section end*/
+
+
+/*fine start*/
+
+.fine {
+    border-top: 1px solid #FFFFFF;
+    margin-bottom: 130px;
+}
+
+.fine__image {
+    padding-right: 30px;
+}
+
+.fine__image:last-child {
+    padding-right: 0px;
+}
+
+/*fine end*/
+
+
+/*jeweler start*/
+
+.jeweler__title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 60px;
+}
+
+.jeweler__nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.jeweler__nav-list-active {
+    border: 1px solid #D6D6D6;
+    background: #333333;
+    padding: 20px 37px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-right: 18px;
+}
+
+.jeweler__nav-list {
+    border: 1px solid #D6D6D6;
+    background: #F9F9F9;
+    padding: 20px 37px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-right: 18px;
+}
+
+.jeweler__nav-list:last-child {
+    margin-right: 0px;
+}
+
+.jeweler__image-chapter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.jeweler__image-1 {
+    background-image: url('../img/jeweler/Кольца.jpg');
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 280px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.jeweler__image-title-1 {
+    position: absolute;
+    bottom: 30px;
+    right: 122px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.jeweler__image-2 {
+    background-image: url('../img/jeweler/Украшение.jpg');
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 280px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.jeweler__image-title-2 {
+    position: absolute;
+    bottom: 30px;
+    right: 122px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.jeweler__image-3 {
+    background-image: url('../img/jeweler/Подвески.jpg');
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 280px;
+    position: relative;
+}
+
+.jeweler__image-title-3 {
+    position: absolute;
+    bottom: 30px;
+    right: 95px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.jeweler__image-4 {
+    background-image: url('../img/jeweler/Запонки.jpg');
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 280px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.jeweler__image-title-4 {
+    position: absolute;
+    bottom: 30px;
+    right: 100px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.jeweler__image-5 {
+    background-image: url('../img/jeweler/Серьги.jpg');
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 280px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.jeweler__image-title-5 {
+    position: absolute;
+    bottom: 30px;
+    right: 95px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.jeweler__image-6 {
+    background-image: url('../img/jeweler/Кольца-2.jpg');
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 280px;
+    position: relative;
+}
+
+.jeweler__image-title-6 {
+    position: absolute;
+    bottom: 30px;
+    right: 135px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/*jeweler end*/
+
+/*salons start*/
+
+.salons {
+    background-image: url('../img/fons.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 120px;
+}
+
+.aside__salons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.salons__title {
+    margin-top: 100px;
+    font-size: 21px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.salons__title-2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 45px;
+}
+
+.salons__text {
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    width: 730px;
+    margin-bottom: 60px;
+}
+
+.salons__button {
+    border: 1px solid #333333;
+    background: #FFFFFF;
+    padding: 15px 35px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 100px;
+}
+
+/*salons end*/
+
+/*blog start*/
+
+.blog__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.blog__title {
+    font-size: 21px;
+    line-height: 140%;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.blog__title-2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 60px;
+}
+
+.blog__choice {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.blog__image-1 {
+    background-image: url('../img/jeweler/Часы-жены.jpg');
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 370px;
+    position: relative;
+    margin-right: 30px;
+}
+
+.blog__image-text-1 {
+    position: absolute;
+    bottom: 35px;
+    font-size: 21px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.blog__image-2 {
+    background-image: url('../img/jeweler/Запонки-муж.jpg');
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 370px;
+    position: relative;
+    margin-right: 30px;
+}
+
+.blog__image-text-2 {
+    position: absolute;
+    bottom: 35px;
+    font-size: 21px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.blog__image-3 {
+    background-image: url('../img/jeweler/Кольца-молодо.jpg');
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 370px;
+    position: relative;
+}
+
+.blog__image-text-3 {
+    position: absolute;
+    bottom: 35px;
+    font-size: 21px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.blog__button {
+    border: 1px solid #FFFFFF;
+    background: #333333;
+    padding: 15px 35px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/*blog end*/
+
+/*advise start*/
+
+.advise {
+    background-image: url('../img/fons.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.advise__block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.advise__title {
+    margin-top: 100px;
+    font-size: 21px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.advise__title-2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+
+.advise__play-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.advise__block-2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+
+}
+
+.advise__play {
+    display: flex;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    margin-right: 80px;
+}
+
+.advise__play:last-child {
+    margin-bottom: 0px;
+}
+
+.advise__image {
+    padding-right: 15px;
+}
+
+.advise__email {
+    background: #FFFFFF;
+    width: 418px;
+    height: 85px;
+    padding: 20px 20px;
+}
+
+.advise__input {
+    width: 200px;
+    height: 45px; 
+    border: 1px solid #D6D6D6;
+}
+
+.advise__button {
+    border: 1px solid #FFFFFF;
+    background: #333333;
+    padding: 14px 35px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/*advise end*/
+
+/*footer start*/
+
+.footer__block {
+    display: flex;
+}
+
+.footer__link-1 {
+    display: flex;
+}
+
+.footer__link-2 {
+    display: flex;
+}
+
+.footer__link {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    margin-bottom: 60px;
+}
+
+.footer__title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.footer__border {
+    border: 1px solid #333333;
+    width: 245px;
+    margin-bottom: 30px;
+}
+
+.footer__link-list {
+    line-height: 150%;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.footer__link-list:last-child {
+    margin-bottom: 0px;
+}
+
+.footer__text {
+    width: 255px;
+    line-height: 150%;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.footer__class-image {
+    display: flex;
+}
+
+.footer__image {
+    margin-right: 20px;
+}
+
+.footer__link-list-icon {
+    display: flex;
+    line-height: 150%;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.footer__image-phon {
+    padding-right: 20px;
+}
+
+.footer__image-cmc {
+    padding-right: 20px;
+}
+
+.footer__link-social {
+    display: flex;
+}
+
+.footer__image-social {
+    margin-right: 20px;
+}
+
+.footer__image-social:last-child {
+    margin-right: 20px;
+}
+
+.footer__end {
+    border-top: 1px solid #333333;
+    display: flex;
+    padding: 20px;
+}
+
+.footer__end-title {
+    line-height: 150%;
+    margin-right: 185px;
+    color: #333333;
+}
+
+.footer__end-title:last-child{
+    margin-right: 0px;
+}
+
+/*footer end*/
